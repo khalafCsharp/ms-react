@@ -1,8 +1,8 @@
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { RouterProvider } from 'react-router';
-import { router } from './common/router';
+import { createRoot } from "react-dom/client";
 
-createRoot(document.getElementById('root')).render(
-<RouterProvider router={router}></RouterProvider>
-)
+import "./index.css";
+
+import "./common/interceptors";
+import App from "./App";
+
+createRoot(document.getElementById("root")).render(<App />);

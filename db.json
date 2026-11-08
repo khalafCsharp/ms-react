@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "name": "khalaf",
+      "email": "alex@gmail.com",
+      "phoneNumber": "83738373",
+      "vehicleDtos": [
+        {
+          "make": "nissan",
+          "model": "sunny",
+          "year": "2022",
+          "licensePlate": "abc"
+        }
+      ],
+      "id": "ARvmaYIMWIw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
